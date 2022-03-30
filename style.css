@@ -1,0 +1,27 @@
+body {
+  background-color: #bbbbbb;
+  font-family: Vazirmatn;
+}
+#selections {
+  display: flex;
+  justify-content: center;
+}
+.selection {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 44px;
+  cursor: pointer;
+  transition: 100ms;
+  margin: 10px;
+}
+.selection:hover {
+  transform: scale(1.2);
+}
+#results {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
